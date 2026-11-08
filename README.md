@@ -1,7 +1,5 @@
 # PhishGuard AI – Machine Learning Based Phishing Website Detection
 
-# PhishGuard AI – Machine Learning Based Phishing Website Detection
-
 ## 1. Problem Statement
 
 Phishing websites imitate legitimate websites to deceive users into sharing sensitive information such as login credentials and financial details.
