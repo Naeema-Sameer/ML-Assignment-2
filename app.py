@@ -54,7 +54,7 @@ if uploaded_file is not None:
         X_test = data[feature_columns].apply(
             pd.to_numeric, errors="coerce"
         )
-        y_test = (data["label"] == 0).astype(int)
+        y_test = data["label"].astype(int)
 
         model_path = MODEL_DIR / model_files[selected_model]
         model = joblib.load(model_path)
